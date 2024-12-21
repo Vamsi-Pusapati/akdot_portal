@@ -1,0 +1,232 @@
+/* ScenarioAnalysis.css */
+.scenario-analysis-container {
+  display: flex;
+  background-color: #dde0e1; /* Light blue background */
+  padding: 20px;
+}
+
+
+.center-panel {
+  flex: 2 2;
+  margin-right: 10px;
+}
+
+.left-panel {
+  flex: 1 1;
+  margin-right: 10px;
+}
+
+.right-panel {
+  flex: 2 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-right: 10px; */
+  /* padding-top: 10px; */
+  /* padding-left: 10px; */
+}
+
+.short-term-scenarios, .long-term-scenarios {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: solid;
+}
+
+#disruptionTimeDate {
+  width: 90%;
+}
+
+.sa-headers {
+  background-color: RGB(24, 79, 158);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: larger;
+  padding: 10px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.video-placeholder{
+  height: 55rem;
+  width: 45rem;
+  border-radius: 5px;
+  border: solid;
+}
+
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  /* Add any additional styling you need for the icons */
+}
+
+.arrow-icon.left-arrow {
+  left: 0;
+  padding-left: 8px;
+}
+
+.arrow-icon.right-arrow {
+  right: 0;
+}
+
+.parameter {
+  margin-bottom: 10px;
+}
+
+.parameter label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.parameter select, .parameter input {
+  width: 95%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.action-buttons {
+  display: flex;
+  background-color: #ffffff;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  justify-content: space-evenly !important;
+  border: solid;
+}
+
+.run-button:disabled {
+  background-color: #cccccc; /* Gray background for disabled state */
+  color: #666666; /* Gray text for disabled state */
+  cursor: not-allowed; /* Not-allowed cursor to indicate disabled state */
+}
+
+.action-buttons button {
+  width: 30%;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: none;
+  background-color: #0747a6;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.action-buttons button:hover {
+  background-color: #093684;
+}
+
+.video-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sa-suggestions-box {
+  width: 100%;
+  padding: 10px 0.5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: solid;
+}
+
+.statistics-and-plots {
+  background-color: #ffffff;
+  position: relative;
+  /* margin: 10px 25px; */
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: solid;
+  width: 100%;
+}
+
+.statistics-and-plots img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.iframe-plot {
+  width: 95%;
+  height: 30rem; /* Adjust height as needed */
+  margin: 0 auto; /* Center the iframe */
+  margin-left: 8px;
+}
+
+
+
+
+.table-container {
+  /* max-height: 190px;  */
+  max-height: 14rem;
+  overflow-y: auto;
+  width: 100%; /* Adjust if you want a different width */
+  display: block;
+}
+
+/* Style the table as needed */
+table {
+  width: 100%; /* Adjust if necessary */
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.plot-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.plot-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-icon {
+  cursor: pointer;
+  z-index: 10;
+  font-size: 2rem;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 0;
+}
+
+.right-arrow {
+  position: absolute;
+  right: 0;
+}
+
+
+
+.table-container {
+  max-height: 400px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}

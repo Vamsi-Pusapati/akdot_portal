@@ -1,0 +1,112 @@
+.weather-widget {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  border-radius: 8px;
+  padding: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  width: 100%; /* Full width */
+  max-width: 1000px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the component */
+  text-align: center;
+}
+
+/* Left section for location and date */
+.left-section {
+  flex: 1;
+  text-align: left;
+}
+
+.weather-city {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-date {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Middle section for temperature and icon */
+.middle-section {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temp-icon {
+  display: flex;
+  align-items: center;
+}
+
+.weather-temp {
+  font-size: 64px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.weather-icon {
+  font-size: 64px;
+}
+
+.weather-range {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Right section for description and details */
+.right-section {
+  flex: 1;
+  text-align: right;
+}
+
+.weather-condition {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.weather-details div {
+  margin-bottom: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .weather-widget {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-section,
+  .middle-section,
+  .right-section {
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  .weather-temp {
+      font-size: 48px;
+  }
+
+  .weather-icon {
+      font-size: 48px;
+  }
+
+  .weather-range {
+      font-size: 14px;
+  }
+
+  .weather-details {
+      align-items: center;
+  }
+}

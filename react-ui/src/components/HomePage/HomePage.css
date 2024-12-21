@@ -1,0 +1,124 @@
+/* HomePage.css
+
+.container {
+    display: flex;
+    background: #f0f0f0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar li:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  /* Additional styling for content sections */
+  /* .content > div {
+    display: none;
+  }
+  
+  .content > div.show {
+    display: block;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+   */
+
+   /* HomePage.css */
+/* HomePage.css */
+.homepage {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color:  RGB(24, 79, 158);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.component-name {
+  font-size: xx-large;
+  margin-left: 10px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  border: solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-buttons button {
+  background-color:  RGB(24, 79, 158);
+  color: white;
+  border: revert-layer;
+  padding: 10px 50px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: larger;
+}
+
+.nav-buttons button:hover {
+  background-color:  RGB(24, 79, 158);
+}
+
+.login-name {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+

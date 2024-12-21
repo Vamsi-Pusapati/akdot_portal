@@ -1,0 +1,65 @@
+/* SideNav.css */
+
+/* Styles for the drawer container */
+.drawer {
+    width: 240px !important; /* Increased width for the SideNav */
+    background-color: #333333 !important; /* Dark background color */
+    padding-top: 65px !important; /* Adjust padding to clear the app bar */
+    transition: width 0.3s !important; /* Add a smooth transition effect for width changes */
+    margin-top: 88px !important;
+  }
+  
+  /* Styles for the list items */
+  .list-item {
+    color: #fff !important; /* Text color */
+    padding: 16px 20px !important; /* Add padding to the list items */
+    font-size: 16px !important; /* Increase font size */
+    transition: background-color 0.3s !important; /* Smooth background color transition */
+    border-left: 4px solid transparent !important; /* Add a left border for items */
+  }
+  
+  .list-item:hover {
+    background-color: #1a1a1a !important; /* Darker background color on hover */
+    border-left: 4px solid #61dafb !important; /* Highlighted border on hover */
+  }
+  
+  /* Styles for the text within list items */
+  .list-item-text {
+    color: #fff !important; /* Text color */
+  }
+  
+  /* Additional styling for specific items */
+  .dashboard-item {
+    /* Define specific styles for the "Dashboard" item */
+    background-color: #007acc !important; /* Background color for the "Dashboard" item */
+    border-left: 4px solid #004e8e !important; /* Left border color for "Dashboard" item */
+  }
+  
+  settings-item {
+    /* Define specific styles for the "Settings" item */
+    background-color: #04a777 !important; /* Background color for the "Settings" item */
+    border-left: 4px solid #03835f !important; /* Left border color for "Settings" item */
+  }
+  
+  map-item {
+    /* Define specific styles for the "Map" item */
+    background-color: #e68600 !important; /* Background color for the "Map" item */
+    border-left: 4px solid #ba6400 !important; /* Left border color for "Map" item */
+  }
+  
+  /* Additional hover styles for specific items */
+  .dashboard-item:hover {
+    /* Define hover styles for the "Dashboard" item */
+    background-color: #005eaa !important; /* Darker background color on hover for "Dashboard" item */
+  }
+  
+  settings-item:hover {
+    /* Define hover styles for the "Settings" item */
+    background-color: #04885d !important; /* Darker background color on hover for "Settings" item */
+  }
+  
+  map-item:hover {
+    /* Define hover styles for the "Map" item */
+    background-color: #d97100 !important; /* Darker background color on hover for "Map" item */
+  }
+  

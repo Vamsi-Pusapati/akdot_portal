@@ -1,0 +1,53 @@
+.incident-alerts-widget {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .incident-header {
+    text-align: center;
+  }
+  
+  .incident-header h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .incident-header p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .incident-body {
+    margin-top: 10px;
+  }
+  
+  .incident-body p {
+    margin: 5px 0;
+  }
+  
+  .incident-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .incident-navigation button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .incident-navigation button:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+  }
+  

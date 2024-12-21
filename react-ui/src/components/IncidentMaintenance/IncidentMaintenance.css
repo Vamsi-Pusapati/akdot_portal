@@ -1,0 +1,164 @@
+/* IncidentMaintenance.css */
+.incident-maintenance-container {
+  display: flex;
+  background-color:  #dde0e1;
+}
+
+.left-panel-im, .im-center-panel, .right-panel-im {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.left-panel-im {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.im-center-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-panel-im {
+  flex: 1;
+}
+
+/* .form-section h2, .description-box h3, .suggestions-box h3, .history-section h3, .frequency-section h3 {
+  background-color: #183f9e;
+  color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+} */
+
+.form-section, .description-box , .suggestions-box, .history-section, .frequency-section {
+  /* color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center; */
+  border-radius: 10px;
+  border: solid;
+
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="text"],
+.form-field input[type="datetime-local"],
+.form-field select,
+.form-field textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0747a6;
+}
+
+/* .map-container {
+  height: 72%;
+} */
+
+.map-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* height: 100%; */
+}
+
+.description-box, .history-section, .frequency-section {
+  border: solid #020202;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.suggestions-box {
+  width: 97%;
+  border: solid #020202;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.section button:hover, .form-actions button:hover {
+  background-color: #0747a6;
+}
+
+.im-buttons {
+  background-color: #183f9e;
+  margin-top: 15px; 
+  border-radius: 10px;
+}
+
+.im-buttons-inside {
+  background-color: #183f9e !important;
+  color: white !important;
+  margin: 10px !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+
+}
+
+
+.h3-im-header {
+  background-color: #183f9e;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+  font-size: large;
+}
+
+.marker {
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+/* .marker {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+  transform: translate(-50%, -50%);
+} */
+
+
+/* #nameOfRecord #dateTime #exactLocation #description #suggestions #recipients {
+  width: 90%;
+} */
+/* Add more styles as needed based on the screenshot */
